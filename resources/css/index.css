@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+    background-color:rgb(156, 209, 255);
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 5px solid slategray
+}
+
+#skyrim-title {
+    background-size: cover;
+    height: 50%;
+    width: 55%;
+}
+#skyrim-logo{
+    width: 5%;
+    position: relative;
+    left: 105px;
+    top: 77px;
+}
+
+main {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.questions{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.answer {
+    padding: 3px;
+    border: 2px solid black
+}
+
+.submit {
+    font-family: Helvetica;
+    font-weight: bold;
+    margin: 10px;
+    padding: 3px 10px;
+    border: 2px solid black
+}
+
+footer {
+    text-align: center;
+    height: 100px;
+    border-top: 5px solid slategray;
+}
+
+h4 {
+    text-align: center;
+}
+
+ul {
+    position: relative;
+    right: 15px;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+li {
+    margin: 8px;
+    text-decoration: dashed underline slategray;
+    text-underline-offset: 3px;
+    
+}
+
+#score{
+    font-size: 32px;
+    font-weight: bold;
+}
